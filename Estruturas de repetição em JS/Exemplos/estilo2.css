@@ -1,0 +1,51 @@
+body {
+    background-color: black;   
+}
+
+div#geral {
+    background-color: rgb(5, 23, 61);
+    height: 450px;
+    width: 700px;
+    font-size: 15pt;
+    font-weight: bold;
+    color: rgb(213, 216, 14);
+    display: block;
+    padding-top: 50px;
+    margin-left: 350px; 
+    margin-right: 200px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+input {
+    border-bottom: 10px;
+    border-color: rgba(151, 25, 8, 0.863);
+}
+
+img.normal {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+img.alta {
+    float: left;
+    height: 300px;
+    width: 280px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+
+pre {
+    font-size: 1.2em;
+    display: grid;
+    font-display: comic;
+    border-style: dotted;
+    height: 170px;
+    width: 400px;
+    text-align: center;
+}

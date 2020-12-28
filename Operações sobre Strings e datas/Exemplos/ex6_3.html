@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exemplo 6.3</title>
+</head>
+
+<body>
+
+   <script>
+
+       let palavra = prompt("Palavra: ")
+       let tam = palavra.length
+       let inverso = palavra.charAt(tam-1).toUpperCase()
+       for(let i = tam-2; i >= 0; i--){
+           inverso += palavra.charAt(i).toLowerCase()
+       }
+       alert(`Palavra: ${palavra} 
+Invertida: ${inverso}`)
+
+   </script>
+</body>
+
+</html>

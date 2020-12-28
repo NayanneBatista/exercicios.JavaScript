@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exemplo 7.2</title>
+</head>
+
+<body>
+    <div id="geral">
+        <script>
+            function calcularMedia(){
+                if(arguments.length == 0){
+                    alert("Informe, no mínimo, uma nota")
+                    return
+                }
+                let soma = 0
+                let numNotas = arguments.length
+
+                for(let i = 0; i < numNotas; i++){
+                    soma += arguments[i]
+                }
+
+                let media = soma/numNotas
+                alert("Média das Notas: " + media.toFixed(1))
+            }
+
+            calcularMedia(5, 6, 8)
+            calcularMedia(2, 10)
+            calcularMedia(7.5, 10, 8, 9.5)
+            calcularMedia()
+        </script>
+    </div>
+</body>
+</html>

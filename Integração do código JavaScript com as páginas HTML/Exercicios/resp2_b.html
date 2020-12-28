@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lan House JS</title>
+</head>
+
+<style>
+    body {
+        background-color: black;   
+    }
+
+    div#geral {
+        background-color: rgb(54, 8, 92);
+        font-size: 15pt;
+        color: rgb(11, 116, 7);
+        display: block;
+        padding-top: 50px;
+        margin-left: 200px; 
+        margin-right: 200px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div id="geral">
+        <h1>Lan House JS</h1>
+        <p>Valor por 15min de Uso: R$<input type="text" id="inValor"></p>
+        <p>Tempo de Uso do Cliente:<input type="text" id="inTempo">min</p>
+        <p><input type="button" value="Calcular Valor a Pagar" id="btCalcular"></p>
+        <p id="outTotal"></p>
+    </div>
+    <script src="resp2_b.js"></script>
+</body>
+</html>

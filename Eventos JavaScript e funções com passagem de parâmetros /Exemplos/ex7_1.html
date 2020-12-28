@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exemplo 7.1</title>
+</head>
+
+<body>
+    <div id="geral">
+        <script>
+            /*function exibirSituacao(nota, media){
+                if(nota>=media){
+                    alert("Aprovado")
+                }else{
+                    alert("Reprovado")
+                }
+            }
+            exibirSituacao(prova1, 7)*/
+           
+            let prova1 = Number(prompt("Nota: "))
+            
+            function obterSituacao(nota, media){
+                let situacao = (nota >= media) ? "Aprovado" : "Reprovado"
+                return situacao
+            }
+
+            let resposta = obterSituacao(prova1, 7)
+            alert(resposta)
+        </script>
+    </div>
+</body>
+</html>

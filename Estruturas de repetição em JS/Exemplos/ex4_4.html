@@ -1,0 +1,33 @@
+<html>
+    <head></head>
+    <body>
+    <script>
+        alert("Digite 0 para sair")
+    
+        let num 
+        let sair
+    
+        do {
+            num = Number(prompt("Número: "))
+    
+            if (num == 0 || isNaN(num)) {
+                sair = confirm("Confirma saída")
+                if (sair) {
+                    break
+                } else {
+                    continue
+                }    
+            }
+    
+            if (num % 2 == 0) {
+                alert(`O dobro de ${num} é ${num*2}`)
+            } else {
+                alert(`O triplo de ${num} é ${num*3}`)
+            }
+        } while (true)
+    
+        alert("Bye, bye...")
+    
+    </script>
+</body>
+</html>

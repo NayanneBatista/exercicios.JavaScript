@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 3.1</title>
+</head>
+
+<style>
+    body {
+        background-color: black;   
+    }
+
+    div#geral {
+        background-color: rgb(12, 73, 53);
+        font-size: 15pt;
+        font-weight: bold;
+        color: rgb(147, 17, 173);
+        display: block;
+        padding-top: 50px;
+        margin-left: 200px; 
+        margin-right: 200px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    input {
+        border-bottom: 10px;
+        border-color: deeppink;
+    }
+</style>
+
+<body>
+    <div id="geral">
+        <h1>Programa Situação do aluno</h1>
+        <p>Nome do aluno:<input type= "text" id="inNome"></p>
+        <p>1a nota:<input type="text" id="inNota1"></p>
+        <p>2a nota:<input type="text" id="inNota2"></p>
+        <p><input type="button" value="Exibir Média e Situação" id="btResultado"></p>
+        <h3 id="outMedia"></h3>
+        <h3 id="outSituacao"></h3>
+        <script src="ex3_1.js"></script>
+    </div>
+</body>
+
+</html>

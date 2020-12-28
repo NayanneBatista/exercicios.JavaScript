@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="estiloOutro.css">
+    <title>Exercício 9_c</title>
+</head>
+
+<body>
+    <div class="container-fluid" id="geral">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="img/exerc.jpg" alt="Exercício" class="imgProg">
+            </div>
+            <div class="col-sm-8" id="divExibir">
+                <h1>Copa do Brasil - Classificados</h1>
+                <p>Clube:</p>
+                <p><input type="text" id="inClube" autofocus></p>
+                <p>
+                    <input type="button" id="btAdicionar" value="Adicionar" class="btn btn-primary">
+                    <input type="button" id="btMontar" value="Montar Tabela de Jogos" class="btn btn-success">
+                    <input type="button" id="btNovos" value="Novos Clubes" class="btn btn-danger">
+                </p>
+            </div>
+        </div>
+        <p>Tabela de Jogos</p>
+        <table id="tabela" class="table table-striped">
+        </table>
+    </div>
+    <script src="resp9_c.js"></script>
+</body>
+</html>

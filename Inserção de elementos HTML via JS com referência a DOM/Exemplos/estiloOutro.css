@@ -1,0 +1,72 @@
+div#geral {
+    background-color: rgb(12, 7, 54);
+}
+
+img.normal {
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding-top: 100px;
+}
+
+img.alta {
+    margin-top: 80px;
+    float: left;
+    height: 320px;
+    width: 300px;
+}
+
+h1 {
+    border-bottom-style: inset;
+    text-align: center;
+    color: chocolate;
+}
+
+p, th {
+    color: chocolate;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+.aDireita {
+    text-align: right;
+}
+
+img.imgProg {
+    max-width: 70%;
+}
+
+.tarefaSelecionada {
+    color: red;
+    font-style: italic
+}
+
+.tarefaNormal {
+    color: black;
+}
+
+img.moeda1_00 {
+    height: 84px;
+    width: 84px;
+    margin-bottom: 5px;
+}
+
+img.moeda0_50 {
+    height: 66px;
+    width: 66px;
+    margin-bottom: 5px;
+}
+
+img.moeda0_25 {
+    height: 76px;
+    width: 76px;
+    margin-bottom: 5px;
+}
+
+img.moeda0_10 {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: black;   
+}
+
+div#geral {
+    background-color: rgb(5, 23, 61);
+    height: 300px;
+    width: 700px;
+    font-size: 15pt;
+    font-weight: bold;
+    color: rgb(170, 83, 25);
+    display: block;
+    padding-top: 50px;
+    margin-left: 350px; 
+    margin-right: 200px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+input {
+    border-bottom: 10px;
+    border-color: rgba(151, 25, 8, 0.863);
+}
+
+img {
+    float: left; 
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: white;
+    padding-left: 2px;
+}
+
+h1 {
+    border-bottom-style: dashed;
+}

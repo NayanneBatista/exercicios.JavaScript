@@ -1,0 +1,94 @@
+div#geral {
+    background-color: rgb(12, 7, 54);
+}
+
+figure{
+    display: inline-block;
+    font-size: 0.7em;
+    margin: 5px;
+}
+
+.imgProg{
+   max-width: 80%;
+}
+
+img.poltrona {
+    width: 24px;
+    height: 16px;
+}
+
+h1 {
+    border-bottom-style: inset;
+    text-align: center;
+    color: chocolate;
+}
+
+h2 {
+    margin-top: 12px
+}
+
+h5 {
+    font-style: italic;
+    margin-top: 40px
+}
+
+pre {
+    font-style: italic;
+}
+
+.aDireita {
+    text-align: right;
+}
+
+.margemSup {
+    margin-top: 30px;
+}
+
+.margemEsq {
+    margin-left: 15px;
+}
+
+.fonteAzul {
+    color: blue;
+}
+
+.fonteVermelho {
+    color: red;
+}
+
+p {
+    color: chocolate;
+}
+
+.oculta {
+    display: none
+}
+
+.exibe {
+    display: inline
+}
+
+.margemJogo {
+    margin-top: 15px;
+}
+
+.italico {
+    font-style: italic;
+}
+
+.corFundo {
+    background-color: lightskyblue;
+}
+
+.entreLetras {
+    letter-spacing: 0.5em;
+}
+
+.aDireita {
+    text-align: right;
+}
+
+.margemDica {
+    padding: 12px;
+}
+

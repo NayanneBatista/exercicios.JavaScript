@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exemplo 6.11 e 6.12</title>
+</head>
+
+<body>
+    <script>
+        /*let hoje = new Date()
+        let dia = hoje.getDate()
+        let mes = hoje.getMonth()
+        let ano = hoje.getFullYear()
+        alert(`${hoje} Data ${dia} ${mes} ${ano}`)*/
+
+        let parcelas = Number(prompt("Quantas parcelas "))
+
+        let lista = ""
+        let dia, mes, ano, diaZero, mesZero
+
+        let data = new Date()
+
+        for(let i = 1; i <= parcelas; i++){
+            data.setMonth(data.getMonth() + 1)
+            dia = data.getDate()
+            mes = data.getMonth() + 1
+            ano = data.getUTCFullYear()
+
+            if(dia < 10){
+                diaZero = "0" + dia
+            }else{
+                diaZero = dia
+            }
+
+            if(mes < 10){
+                mesZero = "0" + mes
+            }else{
+                mesZero = mes
+            }
+
+            lista += `${i} a Parcela: ${diaZero}/${mesZero}/${ano}\n` 
+        }
+        alert(lista)
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+    background-color: black;   
+}
+
+div#geral {
+    background-color: rgb(5, 23, 61);
+    height: 550px;
+    width: 1000px;
+    font-size: 15pt;
+    font-weight: bold;
+    color: rgb(170, 83, 25);
+    display: block;
+    padding-top: 50px;
+    margin: auto;
+    margin-left: 150px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+    position: absolute;
+}
+
+p, h3, pre{
+    padding-left: 450px;
+    padding-top: 10px;
+}
+
+input {
+    border-bottom: 10px;
+    border-color: rgba(151, 25, 8, 0.863);
+}
+
+img {
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding-top: 100px;
+}
+
+h1 {
+    border-bottom-style: inset;
+    text-align: center;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+.fonteVerde {
+    color: green;
+}
+
+.oculta {
+    display: none
+}
+
+.exibe {
+    display: inline
+}
+
+.italico {
+    font-style: italic;
+}
+
+.entreLetras {
+    letter-spacing: 5px;
+}
+
+.aDireita {
+    text-align: right;
+}
